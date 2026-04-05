@@ -1,7 +1,14 @@
-a = int(input("nhập năm sinh của bạn: "))
-b = 2025 - a
-print(b)
-if b >= 18:
-    print("Bạn đã đủ 18 tuổi")
-else:
-    print("Bạn chưa đủ 18 tuổi")       
+a = int(input("Nhập số tự nhiên a: "))
+b = int(input("Nhập số tự nhiên b: "))
+c = a+b
+d = a-b
+e = a*b
+f = a//b
+g = a%b
+h = a/b
+print(f"Tổng: {c}")
+print(f"Hiệu: {d}")
+print(f"Tích: {e}") 
+print(f"Phần nguyên: {f}")
+print(f"Phần dư: {g}")
+print(f"Phần thực: {h:.2f}")
